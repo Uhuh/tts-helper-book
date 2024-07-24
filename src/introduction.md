@@ -18,7 +18,7 @@ TTS Helper has a few things built in to make life easier.
 
 ## Free third party services inside TTS Helper
 TTS Helper has a few free to use third party services to help kickstart your TTS adventure.
-- **StreamElements** - StreamElements offers a decent variety of TTS options. It's got a high rate limit, you realistically won't exceed it unless you spam every second.
+- **StreamElements** - StreamElements offers a decent variety of TTS options. It has a high rate limit, you realistically won't exceed it unless you spam every second.
 - **TikTok** - Offers all the silly TikTok voices. Gracefully hosted by [WeilByte](https://github.com/Weilbyte).
 - **VTubeStudio** - You can hookup a rigged model with VTubeStudio and TTS Helper will make the mouth move when you use the TTSHelperParameters.
 
@@ -33,6 +33,6 @@ These are all optional to use.
 
 ## Recommended IDE Setup
 
-If you want to make improvements to TTS Helper or fork your own here's the recommended setup:
+If you want to make improvements to TTS Helper or fork your own, here’s the recommended setup:
 
 [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) + [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template).
