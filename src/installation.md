@@ -14,6 +14,4 @@ Download the relevant file for your operating system!
 
 ## Once you've installed...
 
-Once you've installed **TTS Helper** there are a few things you should check out.
-
-**Next page** (click the arrow on the right)
+Once you've installed **TTS Helper**, there are a few things you should check out.
