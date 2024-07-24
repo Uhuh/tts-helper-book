@@ -1,6 +1,6 @@
 # Introduction 
 
-<img src="./images/tts-helper.svg" style="width: 100%" />
+<img alt="tts helper logo" src="./images/tts-helper.svg" style="width: 100%" />
 
 **TTS Helper** is a free desktop tool designed to help streamers integrate TTS into their streams effortlessly. 
 It leverages the power of third party TTS tools such as **StreamElements**, **TikTok**, **ElevenLabs** and **Amazon Polly**.
