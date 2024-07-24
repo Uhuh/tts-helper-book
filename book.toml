@@ -1,0 +1,13 @@
+[book]
+authors = ["Dylan Warren"]
+language = "en"
+multilingual = false
+src = "src"
+title = "TTS Helper documentation"
+
+[output.html]
+git-repository-url = "https://github.com/uhuh/tts-helper"
+git-repository-icon = "fa-github"
+smart-punctuation = true
+default-theme = "ayu"
+preferred-dark-theme = "navy"
