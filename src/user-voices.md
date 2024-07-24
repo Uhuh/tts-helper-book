@@ -2,7 +2,7 @@
 
 ## If you're a user wanting to know what their options are [go here](./user-voices-options.md)
 
-There's a new<sup>TM</sup> feature in **TTS Helper** that allows users to select what TTS voice will be used when _they_ redeem.    
+There's a new<sup><small>TM</small></sup> feature in **TTS Helper** that allows users to select what TTS voice will be used when _they_ redeem.    
 <small>I envisioned this as a good channel point sink.</small>
 
 ![tts helper user voices page](./images/user-voices.png)

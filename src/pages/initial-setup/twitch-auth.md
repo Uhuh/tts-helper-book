@@ -12,4 +12,4 @@ And you should see **Twitch** say it's `Connected`
 ![successfully connected in tts helper](../../images/tts-helper-authed.png)
 
 ## And that's all I wrote.
-That should be all there is for authenticating with **Twitch**. If you encounter issues, please join the [Discord server](https://discord.com/invite/jNDjNVeuJp)
+That should be all there is for authenticating with **Twitch**. If you encounter issues, please join the [Discord server](https://discord.com/invite/jNDjNVeuJp).
