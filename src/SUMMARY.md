@@ -15,6 +15,7 @@
 # TTS Helper in depth
 - [ElevenLabs TTS](./elevenlabs-tts.md)
 - [TTS API](./tts-api.md)
+- [Multi Voices](./multi-voices.md)
 - [User Voices](./user-voices.md)
     - [Voice Options](./user-voices-options.md)
 - [TTS in Depth](./tts-in-depth.md)
