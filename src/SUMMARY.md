@@ -24,3 +24,4 @@
   - [ChatGPT](./pages/chat-gpt/chat-gpt-personality-intro.md)
     - [ChatGPT Advanced](./pages/chat-gpt/chat-gpt-personality-advanced.md)
     - [ChatGPT Personality](./pages/chat-gpt/chat-gpt-personality.md)
+    - [ChatGPT Vision](./pages/chat-gpt/chat-gpt-vision.md)
