@@ -1,7 +1,6 @@
 # Twitch auth
 
 Once you've installed TTS Helper, you should login into your **Twitch** account.  
-<small>(Because I only support Twitch right now... sorry)</small>
 
 ![tts helper unauthed](../../images/twitch-auth.png)
 

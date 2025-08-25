@@ -2,6 +2,7 @@
 
 There are a couple things we need to handle before we start playing some TTS!
 - We need to authenticate with Twitch.
+  - Or Youtube!
 - We need to ensure our TTS services are working as expected
   - We'll be using the free ones starting out to learn.
 

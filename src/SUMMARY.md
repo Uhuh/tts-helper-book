@@ -6,6 +6,7 @@
 - [Installation](./installation.md)
 - [Initial Setup](./pages/initial-setup/initial-setup.md)
   - [Twitch Auth](./pages/initial-setup/twitch-auth.md)
+  - [Youtube Settings](./pages/initial-setup/youtube.md)
   - [TTS Services](./pages/initial-setup/initial-tts-service.md)
   - [Chat Settings](./pages/initial-setup/chat-settings.md)
   - [Moderation](./pages/initial-setup/moderation.md)
@@ -13,6 +14,7 @@
   - [Finishing Up](./pages/initial-setup/finish-tutorial.md)
 
 # TTS Helper in depth
+- [VirtualMotionCapture Protocol](./virtual-motion-capture-protocol.md)
 - [ElevenLabs TTS](./elevenlabs-tts.md)
 - [TTS API](./tts-api.md)
 - [Multi Voices](./multi-voices.md)

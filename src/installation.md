@@ -1,6 +1,6 @@
 # Installation
 
-You can get the latest version of **TTS Helper** [here](https://github.com/Uhuh/tts-helper/releases/latest/).
+> You can get the latest version of **TTS Helper** [here](https://github.com/Uhuh/tts-helper/releases/latest/).
 
 Download the relevant file for your operating system!
 
