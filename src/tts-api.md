@@ -1,19 +1,15 @@
 # TTS API
 
-## If you're using a tool like MixItUp
+TTS Helper has a bare bones API.
 
-This is the perfect thing to use! Because currently **TTS Helper** doesn't support **YouTube**, you can use **MixItUp** to send TTS request here.
+If you have software that can send request out, you can trigger certain TTS Helper features with them.
 
-**TTS Helper** is lacking severely in it's exposed APIs, not that it needs much to begin with!
+> TTS Helper's API listens for request here: `http://localhost:12589`
 
-There's currently only one exposed API endpoint.    
+Currently `platform` supports `twitch`, `youtube`. If you pass an unknown platform, we'll render a `?`
 
-All this does is allows you to send TTS request to **TTS Helper**
-If the username is in a block list, or if the text content contains a banned word, your request will be ignored.
-
-Here's the info:
 <head>
-  <title>HTML Table</title>
+  <title>API Table</title>
   <style>
     table {
       width: 100%;
@@ -26,11 +22,11 @@ Here's the info:
   <tr>
     <th>HTTP Type</th>
     <th>EndPoint</th>
-    <th>Data Structure</th>
+    <th>Body</th>
   </tr>
   <tr>
     <td>POST</td>
-    <td>http://localhost:12589/tts</td>
+    <td><code style="white-space: nowrap">/tts</code></td>
     <td>
       <pre>
         {
@@ -42,7 +38,72 @@ Here's the info:
       </pre>
     </td>
   </tr>
+  <tr>
+    <td>POST</td>
+    <td><code style="white-space: nowrap">/toggle-pause-status</code></td>
+    <td>
+      No body for this request.
+    </td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td><code style="white-space: nowrap">/skip-current-playing</code></td>
+    <td>
+      No body for this request.
+    </td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td><code style="white-space: nowrap">/ai-tts</code></td>
+    <td>
+      <pre>
+        {
+            "username": "Panku",
+            "platform": "twitch",
+            "text": "How're you?",
+            "char_limit": 300
+        }
+      </pre>
+    </td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td><code style="white-space: nowrap">/ai-response</code></td>
+    <td>
+      <pre>
+        {
+            "username": "Panku",
+            "platform": "twitch",
+            "text": "How're you?",
+            "char_limit": 300
+        }
+      </pre>
+    </td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td><code style="white-space: nowrap">/react-ai-image</code></td>
+    <td>
+      <pre>
+        {
+            "text": "What do you see?",
+            "image": "*B64 encoded image here*"
+        }
+      </pre>
+    </td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td><code style="white-space: nowrap">/trigger-ai-vision</code></td>
+    <td>
+      <pre>
+        {
+            "username": "Panku",
+            "platform": "twitch",
+            "text": "What do you see?",
+            "char_limit": 300
+        }
+      </pre>
+    </td>
+  </tr>
 </table>
-
-All of these can be changed, obviously, besides the `platform` field.   
-Currently `platform` supports `twitch`, `youtube` and `vstream` (rip)

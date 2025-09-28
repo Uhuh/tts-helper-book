@@ -7,6 +7,17 @@ It leverages the power of third party TTS tools such as **StreamElements**, **Ti
 
 Currently I'm the sole developer! [Hi! Here's my Twitter.](https://twitter.com/PankuRS)
 
+Because TTS Helper is an open source tool, all the code can be found on the GitHub. [https://github.com/Uhuh/tts-helper](https://github.com/Uhuh/tts-helper)
+
+All releases for TTS Helper will be available at [https://github.com/Uhuh/tts-helper/releases](https://github.com/Uhuh/tts-helper/releases)
+
+**TTS Helper will automatically update for you, so no need to download each time there's a new release.**
+
+## Support
+Reach out to the [TTS Helper Twitter](https://x.com/TTSHelper)
+
+If you prefer Discord, you can [join here](https://discord.gg/jNDjNVeuJp)
+
 ## TTS Helper utilities
 TTS Helper has a few things built in to make life easier.
 - **History** - This will show the currently playing and all completed or skipped redeems.
